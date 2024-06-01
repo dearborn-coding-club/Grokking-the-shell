@@ -1,3 +1,8 @@
+Table Of Contents
+- [Using the shell](#using-the-shell)
+   * [Navigating around](#navigating-around)
+   * [Removing and creating things](#removing-and-creating-things)
+
 # Using the shell
 Today, most computer users use a GUI or a Graphical User Interface to interact with their
 computers. Before GUIs existed, users would use a terminal to interact with computers. In
@@ -23,4 +28,12 @@ To change the current directory, one uses the cd command:
 ```sh
 cd ~ # ~ expands to the home directory of the current user
 ```
+
+## Removing and creating things
+To remove a file or folder, you can run:
+
+```sh
+rm -rf <folder or filename> # Replace the brackets and text with the actual folder and filename
+```
+
 
